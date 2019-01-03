@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+div {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+p #inline {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+textarea {
+    position: relative;
+    top: -41px;
+    left: 10px;
+    
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-style: none;
+    outline-style: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+    border-style: solid;
+    color: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-style: solid;
+    color: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}
